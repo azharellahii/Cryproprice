@@ -1,0 +1,91 @@
+body {
+    background-image: url("./img/crypto.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    background-color: none;
+}
+
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.a-container {
+    display: flex;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #3F4045;
+}
+
+.text-1 {
+    margin: 15px;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.input-field {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.btn-ele {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-1 {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-1:hover {
+    transform: scale(1.2);
+}
+
+.text-2 {
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    border-top: 2px solid black;
+}
+
+.result-ele {
+    display: flex;
+    flex-direction: column;
+}
+
+.result-ele>:first-child {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.result-ele>:last-child {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width:457px) {
+    .text-1 {
+        font-size: 23px;
+    }
+}
